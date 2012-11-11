@@ -3,16 +3,10 @@ require('ty')
 (['express', 'async', 'fs'])
 
 ('hello.js')
-
-('isArray', function(obj) {
-    if(obj instanceof Array)
-        return true;
-    else
-        return false;
-})
+('world.js')
 
 ('common', function() {
-    console.log('test yeah!');
+    console.log('common function call!');
 })
 
 ()
