@@ -23,10 +23,6 @@ function(err) {
 
 common();
 
-module.exports = {
-    test: function() {
-        console.log(2323);
-    }
-}
-
-hello.test();
+ty(function() {
+    console.log("hello module initialize");
+})
